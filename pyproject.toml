@@ -6,7 +6,7 @@ authors = ["Sofian Mejjoute <sofian.mejjoute@student.unamur.be>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-mysql-connector = "^2.2.9"
+mysql-connector-python = "^8.0.29"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
