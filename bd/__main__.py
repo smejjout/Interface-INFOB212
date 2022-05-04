@@ -26,6 +26,7 @@ def main() -> None:
     # exemple d'ajout d'option
     # parser_inscription.add_argument("--name", help="Votre Nom", type=str)
 
+    parser.set_defaults(func=lambda x: parser.print_help())
     parser_inscription.set_defaults(func=inscription)
     parser_info.set_defaults(func=info)
     parser_desinscription.set_defaults(func=desinscription)
@@ -33,7 +34,8 @@ def main() -> None:
     parser_compta.set_defaults(func=compta)
 
     # appelle automatiquement les différentes fonctions via `func`
-    parser.parse_args()
+    args = parser.parse_args()
+    args.func(args)
 
 
 def inscription(args: argparse.Namespace) -> None:
