@@ -1,0 +1,2 @@
+mysql-connector==2.2.9 \
+    --hash=sha256:1733e6ce52a049243de3264f1fbc22a852cb35458c4ad739ba88189285efdf32
