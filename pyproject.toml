@@ -8,6 +8,12 @@ authors = ["Sofian Mejjoute <sofian.mejjoute@student.unamur.be>"]
 python = "^3.10"
 mysql-connector-python = "^8.0.29"
 
+[tool.poetry.dev-dependencies]
+mypy = "^0.950"
+bandit = "^1.7.4"
+pylint = "^2.13.9"
+black = {version = "^22.3.0", allow-prereleases = true}
+flake8 = "^4.0.1"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
