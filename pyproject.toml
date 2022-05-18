@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bd"
-version = "0.1.0"
+version = "0.2.0"
 description = "Interface pour le projet du cours INFOB212"
 authors = ["Sofian Mejjoute <sofian.mejjoute@student.unamur.be>"]
 

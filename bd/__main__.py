@@ -2,6 +2,8 @@
 import argparse
 import re
 
+import mysql.connector
+
 
 # Pour une interface graphique facile voir Gooey
 # https://github.com/chriskiehl/Gooey
